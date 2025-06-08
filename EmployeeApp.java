@@ -80,6 +80,7 @@ class Employee extends Person {
     public void displayEmployeeDetails() {
         displayName();
         displayAge();
+        System.out.println("Employee");
         System.out.println("Employee Details:");
         System.out.println("Employee ID: " + empId);
         System.out.println("Salary: $" + salary);
